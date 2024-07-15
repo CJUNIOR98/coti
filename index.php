@@ -1,3 +1,7 @@
+<?php 
+require_once 'app/config.php';
+print_r($_SESSION);
+?>
 <!DOCTYPE html>
 <html lang="es">
 
