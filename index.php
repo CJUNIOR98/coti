@@ -1,3 +1,7 @@
+<?php
+require_once 'app/config.php';
+print_r($_SESSION);
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -22,7 +26,7 @@
             <div class="col-xl-4">
                 <div class="card">
                     <div class="card-body">
-                    <button id="do_add_products">click</button>
+                        <button id="do_add_products">click</button>
                         <h4 class="card-title">Agregar productos</h4>
                         <form id="do_add_product">
                             <div class="form-group row">
@@ -132,7 +136,7 @@
     </div>
 
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
 
