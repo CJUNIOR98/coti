@@ -1,4 +1,4 @@
-<?php 
+<?php
 require_once 'app/config.php';
 print_r($_SESSION);
 ?>
@@ -26,7 +26,7 @@ print_r($_SESSION);
             <div class="col-xl-4">
                 <div class="card">
                     <div class="card-body">
-                    <button id="do_add_products">click</button>
+                        <button id="do_add_products">click</button>
                         <h4 class="card-title">Agregar productos</h4>
                         <form id="do_add_product">
                             <div class="form-group row">

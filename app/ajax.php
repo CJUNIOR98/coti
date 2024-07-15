@@ -19,8 +19,8 @@ switch ($action) {
                 'precio' => $_POST['precio'],
                 'subtotal' => floatval($_POST['cantidad'] * $_POST['precio'])
             ];
-            $_SESSION['productos'][] = $producto;
-            echo json_encode(['status' => 200, 'msg' => 'Producto agregado con exito']);
+        $_SESSION['productos'][] = $producto;
+        echo json_encode(['status' => 200, 'msg' => 'Producto agregado con exito']);
         break;
 
     default:

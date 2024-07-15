@@ -17,16 +17,16 @@ $(document).ready(function () {
                 producto,
                 precio,
                 cantidad,
-                action
+                action,
             },
             beforeSend: function () {
                 alert('Before sending...')
             },
         })
             .done(function (res) {
-                if(res.status === 200){
+                if (res.status === 200) {
                     alert(res.msg)
-                }else{
+                } else {
                     alert(res.msg)
                 }
             })
