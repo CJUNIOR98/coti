@@ -8,19 +8,7 @@ $(document).ready(function () {
         precio = $('#precio').val()
         cantidad = $('#cantidad').val()
 
-        $.ajax({
-            url: 'app/ajax.php',
-            type: 'POST',
-            dataType: 'JSON',
-            data: {
-                producto,
-                precio,
-                cantidad,
-            },
-            beforeSend: function () {
-                alert('Before sending...')
-            },
-        })
+       
     })
 
     //Cargar prducto
